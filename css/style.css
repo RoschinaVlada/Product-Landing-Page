@@ -1,0 +1,8 @@
+@media(max-width){
+
+}
+#nav-bar {
+    position: fixed;
+  top: 5px;
+  display: flex;
+}
