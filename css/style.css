@@ -1,12 +1,65 @@
-@media(max-width){
-
+body {
+  padding: 15px;
+  font-family: 'Roboto', Geneva, Tahoma, sans-serif;
 }
+
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  
+  display: flex;
+  list-style: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+form {
+  text-align: center;
+}
+
 #nav-bar {
-    position: fixed;
+  text-align: center;
   top: 5px;
   display: flex;
 }
 
 #header-img {
   width: 100px;
+}
+ 
+input , button{
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+section {
+  
+}
+
+iframe{
+  
+  
+}
+
+h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.nav-link {
+  text-align: center;
+ }
+
+@media(max-width){
+
 }
