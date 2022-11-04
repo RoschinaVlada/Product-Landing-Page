@@ -3,15 +3,25 @@ body {
   font-family: 'Roboto', Geneva, Tahoma, sans-serif;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 auto;
+  position: relative;
+}
+
 header {
+  display: flex;
   position: sticky;
   top: 0;
-  display: flex;
   justify-content: space-between;
 }
 
+
+
 ul {
-  
   display: flex;
   list-style: none;
 }
@@ -25,11 +35,31 @@ a {
 form {
   text-align: center;
 }
+ 
+#Features {
+  margin-top: 20px;
+  text-align: center 
+}
+
+#How_It_Works {
+  margin-top: 20px;
+  text-align: center 
+}
+
+#Pricing {
+  margin-top: 20px;
+  text-align: center 
+}
+
+h2 {
+  text-align: center;
+ }
 
 #nav-bar {
-  text-align: center;
-  top: 5px;
   display: flex;
+  flex-grow: 1;
+  min-height: 80px;
+  align-items: center;
 }
 
 #header-img {
@@ -41,6 +71,8 @@ input , button{
   border-radius: 10px;
   margin-bottom: 10px;
 }
+
+
 
 section {
   
@@ -56,8 +88,12 @@ h2 {
   margin-top: 10px;
 }
 
-.nav-link {
-  text-align: center;
+.link {
+  text-align: left;
+  display: flex;
+  min-height: 50px;
+  align-items: center;
+  text-indent: 40px;
  }
 
 @media(max-width){
