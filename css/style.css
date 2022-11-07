@@ -49,9 +49,18 @@ form {
   text-align: center 
 }
 
+#pricing {
+  width: 100%;
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
 #pricing .card {
   margin: 0 auto;
-  margin-bottom: 15px;
+  margin-bottom: -350px ;
   border: 1px solid #000;
   max-width: 340px;
   width: 100%;
@@ -87,18 +96,6 @@ form {
   font-size: 24px
 }
 
-#pricing .card {
-  background: #eee;
-  float: left;
-  width: 23.5%;
-  margin-right: 2%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 0px 125px 0px 10px;
-}
 
 #card1 {
   display: block;
